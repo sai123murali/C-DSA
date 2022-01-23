@@ -7,15 +7,16 @@ int main(){
 int n;
 cin>>n;
 int ans=1;
-int flag=0;
+bool flag=0;
 
 for (int i=0;i<=30;i++){
 
 if(ans==n){
     flag=1;
+    break;
 }
-if(ans<INT_MAX/2)
-    ans=ans*2;
+if(ans<INT_MAX/3)
+    ans=ans*3;
 }
 
 if(flag==1)
