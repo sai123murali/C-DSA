@@ -4,9 +4,6 @@ using namespace std;
 
 int power(int a, int b){
 
-int a,b;
-
-cin>>a>>b;
 cout<<endl;
 
     int ans=1;
@@ -18,7 +15,8 @@ cout<<endl;
 }
 
 int main(){
-
+int a,b;
+cin>>a>>b;
 int answer=power(a,b);
 cout<<" The power of "<<a <<" "<<b<<" "<<"is:"<<answer;
 
